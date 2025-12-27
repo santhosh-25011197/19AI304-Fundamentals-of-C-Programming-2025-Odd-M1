@@ -130,7 +130,10 @@ int main() {
 ```
 # Output:
 <img width="534" height="276" alt="image" src="https://github.com/user-attachments/assets/87335803-b064-42b8-b193-898eff9129de" />
+
 # Result: 
+Thus, the program was implemented and executed successfully, and the required output was obtained.
+
 
 # 19AI304-Fundamentals-of-C-Programming-2025-Odd
 # IAPR-1- Module 1 - FoC
@@ -243,7 +246,22 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 8:   
   Stop
 # Program:
+```
+#include<stdio.h>
+int main(){
+    char ch;
+    printf("Enter a character: ");
+    scanf("%c",&ch);
+    (ch>='0' && ch<='9')?printf("Digit\n"):
+    ((ch>='A' && ch<='Z')||(ch>='a' && ch<='z'))?
+    ((ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U'||ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u')?printf("Vowel\n"):printf("Consonant\n"))
+    :printf("Special Symbol\n");
+    return 0;
+}
+```
 # Output:
+<img width="472" height="244" alt="image" src="https://github.com/user-attachments/assets/f4ff4428-5fbf-4efd-8812-5f6e81f90267" />
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
